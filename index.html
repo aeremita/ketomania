@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio web dedicado a la dieta keto, recetas keto, y consejos para bajar de peso sin azúcar, sin harina, y sin tacc.">
+    <title>KETO MANIA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+        <div class="title">KETO MANIA</div>
+        <div class="icons">
+            <img src="icon/whatsapp-icon.png" alt="WhatsApp">
+            <img src="icon/instagram-icon.png" alt="Instagram">
+        </div>
+    </header>
+    <nav id="menu">
+        <ul>
+            <li><a href="#mas-vendidos">Mas vendidos</a></li>
+            <li><a href="#menu-salado">Menu Salado</a></li>
+            <li><a href="#menu-dulce">Menu Dulce</a></li>
+            <li><a href="#suscribite">Suscribite</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#info">+Info</a></li>
+        </ul>
+    </nav>
+    <section class="banner">
+        <div class="banner-content">
+            <h1>KETO MANIA</h1>
+            <h2>Delicias sin culpa</h2>
+            <button class="whatsapp-button">
+                <img src="icon/whatsapp-icon.png" alt="WhatsApp"> Whatsapp
+            </button>
+        </div>
+    </section>
+
+<section class="mas-vendidos">
+    <h2>Mas Vendidos</h2>
+    <div class="products">
+        <div class="product">
+            <img src="img/product1.jpg" alt="Producto 1">
+            <div class="product-info">
+                <h3>Producto 1</h3>
+                <button class="pedir-buttonMV">Pedir</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/product2.jpg" alt="Producto 2">
+            <div class="product-info">
+                <h3>Producto 2</h3>
+                <button class="pedir-buttonMV">Pedir</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/product3.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h3>Producto 3</h3>
+                <button class="pedir-buttonMV">Pedir</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/product4.jpg" alt="Producto 4">
+            <div class="product-info">
+                <h3>Producto 4</h3>
+                <button class="pedir-buttonMV">Pedir</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="menu-salado" class="menu-salado">
+    <h2>Menú Salado</h2>
+    <div class="product-box">
+        <img src="img/salado1.jpg" alt="Salado 1" class="product-image">
+        <div class="product-info">
+            <h3>Producto 1</h3>
+            <p>Descripción del producto 1.</p>
+        </div>
+        <button class="pedir-button">Pedir</button>
+    </div>
+    <div class="product-box">
+        <img src="img/salado2.jpg" alt="Salado 2" class="product-image">
+        <div class="product-info">
+            <h3>Producto 2</h3>
+            <p>Descripción del producto 2.</p>
+        </div>
+        <button class="pedir-button">Pedir</button>
+    </div>
+    <div class="product-box">
+        <img src="img/salado3.jpg" alt="Salado 3" class="product-image">
+        <div class="product-info">
+            <h3>Producto 3</h3>
+            <p>Descripción del producto 3.</p>
+        </div>
+        <button class="pedir-button">Pedir</button>
+    </div>
+</section>
+
+
+<section id="menu-salado" class="menu-salado">
+    <h2>Menú Dulce</h2>
+    <div class="product-box">
+        <img src="img/dulce1.jpg" alt="Dulce 1" class="product-image">
+        <div class="product-info">
+            <h3>Producto 1</h3>
+            <p>Descripción del producto 1.</p>
+        </div>
+        <button class="pedir-button">Pedir</button>
+    </div>
+    <div class="product-box">
+        <img src="img/dulce2.jpg" alt="Dulce 2" class="product-image">
+        <div class="product-info">
+            <h3>Producto 2</h3>
+            <p>Descripción del producto 2.</p>
+        </div>
+        <button class="pedir-button">Pedir</button>
+    </div>
+    <div class="product-box">
+        <img src="img/dulce3.jpg" alt="Dulce 3" class="product-image">
+        <div class="product-info">
+            <h3>Producto 3</h3>
+            <p>Descripción del producto 3.</p>
+        </div>
+        <button class="pedir-button">Pedir</button>
+    </div>
+</section>
+
+<section id="suscribite" class="suscribite">
+    <h2>Suscribite</h2>
+    <p>Suscribite para mas delicias</p>
+    <form class="subscribe-form">
+        <input type="email" placeholder="Tu correo electrónico" required>
+        <button type="submit" class="enviar-button">Enviar</button>
+    </form>
+</section>
+<section id="galeria" class="galeria">
+ <h2>Galería</h2>
+
+    <div class="gallery-container">
+        <button class="nav-button left-button" onclick="prevImage()">&#9664;</button>
+        <div class="image-strip">
+            <img src="img/foto1.jpg" alt="Galeria Foto 1" class="gallery-image">
+            <img src="img/foto2.jpg" alt="Galeria Foto 2" class="gallery-image">
+            <img src="img/foto3.jpg" alt="Galeria Foto 3" class="gallery-image">
+            <img src="img/foto4.jpg" alt="Galeria Foto 4" class="gallery-image">
+            <img src="img/foto5.jpg" alt="Galeria Foto 5" class="gallery-image">
+            <img src="img/foto6.jpg" alt="Galeria Foto 6" class="gallery-image">
+            <img src="img/foto7.jpg" alt="Galeria Foto 7" class="gallery-image">
+        </div>
+        <button class="nav-button right-button" onclick="nextImage()">&#9654;</button>
+    </div>
+</section>
+<footer>
+    <div class="footer-content">
+        <ul>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#preguntas-frecuentes">Preguntas Frecuentes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="mailto:ketomania@mail.com">ketomania@mail.com</a></li>
+            <li><a href="tel:+54111234564">+54111234564</a></li>
+        </ul>
+        <div class="footer-icons">
+            <img src="icon/whatsapp-icon.png" alt="WhatsApp">
+            <img src="icon/instagram-icon.png" alt="Instagram">
+        </div>
+    </div>
+</footer>
+<button id="go-to-top" class="go-to-top" onclick="scrollToTop()">↑</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="script.js"></script>
+</html>
